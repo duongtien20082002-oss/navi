@@ -2,407 +2,556 @@
 <html lang="vi">
 <head>
   <meta charset="UTF-8" />
-  <title>Navi – Thuốc đặc trị nút thân xì mủ | King Azone</title>
+  <title>NAVI – Đặc trị nứt thân xì mủ, xoăn lá, vàng lá thối rễ | King Azone</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta
     name="description"
-    content="Navi – Giải pháp sinh học đặc trị nứt thân xì mủ, xoăn ngọn xoăn lá, khảm lá, sượng trái cho sầu riêng và cây ăn trái. King Azone phân phối chính hãng."
+    content="NAVI – Giải pháp sinh học đặc trị nứt thân xì mủ, xoăn lá, vàng lá thối rễ cho sầu riêng và cây ăn trái. Hiệu quả rõ sau 5–7 ngày, kỹ sư King Azone tư vấn 1:1."
   />
   <link rel="stylesheet" href="main.css" />
   <!-- Google Font -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
     rel="stylesheet"
   />
 </head>
+
 <body>
-  <!-- HEADER -->
-  <header class="site-header">
-    <div class="container header-inner">
-      <div class="logo-wrap">
-        <img src="logo.jpg" alt="King Azone" class="logo-img" />
-        <div class="logo-text">
-          <span class="logo-title">King Azone</span>
-          <span class="logo-sub">Bạn Của Nhà Nông Việt</span>
+  <!-- TOPBAR HOTLINE -->
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <div class="topbar-left">
+        <img src="logo.jpg" alt="King Azone" class="logo" />
+        <div class="topbar-brand">
+          <p class="brand-name">KING AZONE</p>
+          <p class="brand-sub">Bạn của nhà nông – Đồng hành cùng mùa vụ</p>
         </div>
       </div>
 
-      <nav class="main-nav">
-        <a href="#product">Sản phẩm</a>
-        <a href="#gallery">Hình ảnh & Video</a>
-        <a href="#faq">FAQ</a>
-        <a href="#contact">Liên hệ</a>
-      </nav>
+      <div class="topbar-right">
+        <div class="hotline-box">
+          <span class="hotline-label">Hotline tư vấn kỹ sư</span>
+          <a href="tel:0911509011" class="hotline-number">0911.509.011</a>
+        </div>
+        <a href="https://zalo.me/0911509011" target="_blank" class="btn btn-zalo">
+          Đặt hàng qua Zalo
+        </a>
+      </div>
     </div>
   </header>
 
-  <!-- HERO / PRODUCT SECTION -->
+  <!-- NÚT HOTLINE DÍNH DƯỚI MOBILE -->
+  <div class="mobile-hotline">
+    <a href="tel:0911509011" class="mobile-hotline-btn">
+      Gọi ngay: 0911.509.011
+    </a>
+    <a href="#form-dang-ky" class="mobile-hotline-btn secondary js-scroll">
+      Đăng ký tư vấn miễn phí
+    </a>
+  </div>
+
   <main>
-    <section id="product" class="section hero">
+    <!-- HERO -->
+    <section class="section hero" id="hero">
       <div class="container hero-grid">
-        <!-- Hình sản phẩm / banner -->
+        <!-- MEDIA -->
         <div class="hero-media">
-          <!-- Ảnh banner lớn -->
-          <img src="navi1.png" alt="Navi – thuốc đặc trị nứt thân xì mủ" class="hero-img" />
-        </div>
-
-        <!-- Thông tin sản phẩm -->
-        <div class="hero-content">
-          <h1 class="product-title">
-            Navi – Giải Pháp Sinh Học Đặc Trị Nứt Thân Xì Mủ, Xoăn Ngọn Xoăn Lá
-          </h1>
-
-          <div class="product-meta">
-            <div class="rating">
-              <span class="stars">★★★★★</span>
-              <span class="rating-text">(154.376 lượt đánh giá)</span>
-            </div>
-            <div class="sold">Đã bán: <strong>165.748</strong> chai</div>
-          </div>
-
-          <div class="price-box">
-            <div class="price-current">370.000 <span class="currency">VND</span></div>
-            <div class="price-old">398.000 VND</div>
-          </div>
-
-          <ul class="product-bullets">
-            <li>Hỗ trợ kháng (cô lập) virus khi xâm nhập vào cây, phòng ngừa xoăn lá, xoăn ngọn, khảm lá, sượng trái.</li>
-            <li>Phòng trừ nhiều tác nhân gây bệnh (vi khuẩn, nấm bệnh) trên sầu riêng, ớt, bầu bí, chanh leo và cây ăn trái.</li>
-            <li>Giúp hạn chế nút thân, xì mủ, thán thư, sương mai, héo rũ, cháy lá, thối rễ khi dùng đúng liều lượng.</li>
-            <li>Tăng sức đề kháng cho cây, giúp cây phục hồi nhanh, tăng năng suất và chất lượng nông sản.</li>
-          </ul>
-
-          <div class="order-inline">
-            <label for="inlineQty">Số lượng (*):</label>
-            <input
-              type="number"
-              id="inlineQty"
-              min="1"
-              value="1"
-              class="input input-qty"
+          <div class="hero-media-main">
+            <img
+              src="navi1.png"
+              alt="NAVI – Đặc trị nứt thân xì mủ"
+              class="hero-img"
             />
           </div>
 
-          <button
-            class="btn btn-primary btn-full"
-            id="heroOrderBtn"
-            type="button"
-          >
-            ĐẶT HÀNG NGAY
-          </button>
+          <div class="hero-media-thumbs">
+            <img src="navi2.png" alt="NAVI sử dụng thực tế" />
+            <img src="navi3.png" alt="NAVI xử lý nứt thân" />
+            <img src="navi4.png" alt="NAVI xử lý vàng lá" />
+          </div>
+        </div>
 
-          <p class="helper-text">
-            Cần tư vấn nhanh? Gọi
-            <a href="tel:0911509011" class="hotline">0911.509.011</a>
-            hoặc kết nối Zalo:
-            <span class="hotline">0911.509.011</span>
+        <!-- CONTENT -->
+        <div class="hero-content">
+          <h1 class="hero-title">
+            NAVI – ĐẶC TRỊ NỨT THÂN XÌ MỦ, XOĂN LÁ, VÀNG LÁ THỐI RỄ
+          </h1>
+
+          <p class="hero-subtitle">
+            Hiệu quả rõ sau <strong>3-5 ngày</strong> nếu dùng đúng liều – vết xì mủ khô dần,
+            lá xanh dày trở lại, rễ trắng khỏe, bung tơ mạnh.
+          </p>
+
+          <div class="hero-badges">
+            <span class="badge badge-green">Giải pháp sinh học an toàn</span>
+            <span class="badge badge-gold">Kỹ sư King Azone khuyến nghị</span>
+            <span class="badge badge-outline">Tư vấn kỹ thuật 1:1 miễn phí</span>
+          </div>
+
+          <ul class="hero-bullets">
+            <li>ĐẶC TRỊ: nứt thân xì mủ, thối vỏ, cháy thân trên sầu riêng & cây ăn trái.</li>
+            <li>HẠN CHẾ: xoăn lá, khảm lá, vàng lá, thối rễ do nấm, vi khuẩn gây ra.</li>
+            <li>GIÚP CÂY PHỤC HỒI: lá dày xanh trở lại, rễ mới ra trắng, cây đi đọt khỏe.</li>
+          </ul>
+
+          <div class="hero-cta">
+            <div class="hero-price">
+              <div class="price-main">
+                <span class="price-label">GIÁ ƯU ĐÃI HÔM NAY + MIỄN PHÍ GIAO HÀNG </span>
+                <span class="price-value"></span>
+              </div>
+              <p class="price-note">
+                <strong>Combo NAVI</strong> – tiết kiệm chi phí, xử lý triệt để nhiều bệnh cùng lúc.
+              </p>
+              <p class="stock">
+                Số lượng ưu đãi còn lại: <span id="stock-count">22</span>/100
+              </p>
+            </div>
+
+            <div class="hero-buttons">
+              <a href="#form-dang-ky" class="btn btn-primary js-scroll">
+                Đặt hàng ngay 
+              </a>
+              <a href="https://zalo.me/0911509011" target="_blank" class="btn btn-outline">
+                Đặt hàng NAVI qua Zalo
+              </a>
+            </div>
+
+            <p class="hero-hotline-note">
+              Hoặc gọi nhanh:
+              <a href="tel:0911509011" class="hotline-inline">0911.509.011</a>
+              (Kỹ sư tư vấn chi tiết theo từng vườn)
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROBLEMS -->
+    <section class="section problems" id="problems">
+      <div class="container">
+        <h2 class="section-title">
+          BÀ CON ĐANG ĐAU ĐẦU VÌ CÂY BỊ BỆNH MÃI KHÔNG DỨT?
+        </h2>
+        <p class="section-intro">
+          Sau mưa kéo dài, thời tiết thất thường, nhiều vườn sầu riêng, tiêu, cà, cây ăn trái…
+          bị <strong>nứt thân, xì mủ, cháy lá, vàng lá, thối rễ</strong>. Xử lý nhiều loại thuốc
+          mà cây vẫn yếu, bệnh cứ tái đi tái lại.
+        </p>
+
+        <div class="problem-grid">
+          <article class="problem-item">
+            <h3>Nứt thân – xì mủ</h3>
+            <p>Vỏ thân chảy nhựa vàng, bị thối đen, lan dài, cạo ra thấy gỗ bị mục.</p>
+          </article>
+          <article class="problem-item">
+            <h3>Vàng lá – thối rễ</h3>
+            <p>Lá vàng từ dưới lên trên, rụng nhiều, rễ đen, đất bí, cây chậm phát triển.</p>
+          </article>
+          <article class="problem-item">
+            <h3>Xoăn lá – khảm lá</h3>
+            <p>Lá non xoăn, biến dạng, đọt đứng lại, cây suy kiệt, năng suất giảm mạnh.</p>
+          </article>
+          <article class="problem-item">
+            <h3>Cây phục hồi chậm</h3>
+            <p>Phun/xịt nhiều loại nhưng cây vẫn yếu, khó đi đọt, khó ra hoa đậu trái.</p>
+          </article>
+        </div>
+
+        <div class="problem-highlight">
+          <p>
+            Nếu xử lý không đúng <strong>nguyên nhân gốc</strong>, bệnh không hết hẳn,
+            cây vừa tốn sức, bà con vừa tốn tiền mà hiệu quả lại không như mong muốn.
           </p>
         </div>
       </div>
     </section>
 
-    <!-- LỢI ÍCH CHÍNH -->
-    <section class="section benefits">
+    <!-- SOLUTION -->
+    <section class="section solution" id="solution">
       <div class="container">
-        <h2 class="section-title">Vì sao nên chọn Navi?</h2>
+        <h2 class="section-title">
+          NAVI – GIẢI PHÁP 3 TÁC ĐỘNG CHO CÂY BỆNH NẶNG
+        </h2>
+        <p class="section-intro">
+          NAVI được nghiên cứu theo hướng <strong>sinh học – an toàn – hiệu quả</strong>,
+          tác động đồng thời lên vết bệnh, hệ rễ và sức đề kháng tổng thể của cây.
+        </p>
+
+        <div class="solution-grid">
+          <article class="solution-item">
+            <div class="solution-step">Tác động 1</div>
+            <h3>ĐẶC TRỊ VÙNG BỊ NỨT THÂN XÌ MỦ</h3>
+            <p>
+              Hoạt chất sinh học thấm sâu, giúp vùng vỏ bị xì mủ khô nhanh, hạn chế lan rộng,
+              tạo điều kiện cho vỏ mới tái tạo.
+            </p>
+          </article>
+
+          <article class="solution-item">
+            <div class="solution-step">Tác động 2</div>
+            <h3>HẠN CHẾ NẤM, VI KHUẨN HẠI LÁ & RỄ</h3>
+            <p>
+              Giúp ức chế một số tác nhân gây bệnh trên thân, lá, rễ; hạn chế vàng lá thối rễ,
+              cháy lá, sượng trái, héo rũ khi dùng đúng liều lượng.
+            </p>
+          </article>
+
+          <article class="solution-item">
+            <div class="solution-step">Tác động 3</div>
+            <h3>KÍCH THÍCH PHỤC HỒI – ĐI ĐỌT – DÀY LÁ</h3>
+            <p>
+              Giúp cây bung tược non, dày lá, xanh đậm hơn, tăng sức chống chịu thời tiết xấu
+              và giảm stress sau khi xử lý bệnh.
+            </p>
+          </article>
+        </div>
+
+        <div class="solution-note">
+          <p>
+            Kết hợp <strong>NAVI</strong> với chế độ chăm sóc hợp lý giúp cây phục hồi nhanh,
+            chuẩn bị tốt cho giai đoạn ra hoa – đậu trái, hạn chế mất mùa.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- BENEFITS -->
+    <section class="section benefits" id="benefits">
+      <div class="container">
+        <h2 class="section-title">
+          LỢI ÍCH THỰC TẾ BÀ CON NHẬN THẤY KHI DÙNG NAVI
+        </h2>
+
         <div class="benefit-grid">
           <article class="benefit-item">
-            <h3>ĐẶC TRỊ NÚT THÂN XÌ MỦ</h3>
-            <p>
-              Công thức sinh học chuyên sâu, tác động mạnh vào vùng bị bệnh, giúp khô vết xì mủ nhanh, hạn chế lan rộng.
-            </p>
+            <h3>KHÔ VẾT XÌ MỦ NHANH</h3>
+            <p>Vùng nứt thân khô dần, không còn chảy nhựa ồ ạt, hạn chế lan sâu vào gỗ.</p>
           </article>
           <article class="benefit-item">
-            <h3>BẢO VỆ LÁ & ĐỌT NON</h3>
-            <p>
-              Kháng virus gây xoăn lá, khảm lá; giúp lá dày, xanh bóng, đọt non bung mạnh, cây phục hồi tốt sau mưa bão.
-            </p>
+            <h3>LÁ XANH DÀY – ĐỌT NON ĐI MẠNH</h3>
+            <p>Cây phục hồi tán lá, lá đứng, dày, bóng; đọt non ra đều, cây tỉnh trở lại.</p>
           </article>
           <article class="benefit-item">
-            <h3>AN TOÀN & HIỆU QUẢ</h3>
-            <p>
-              Hoạt chất sinh học thân thiện với môi trường, an toàn cho người phun và hệ rễ, phù hợp canh tác VietGAP.
-            </p>
+            <h3>RỄ TRẮNG – ĐẤT TƠI, CÂY HẤP THU TỐT</h3>
+            <p>Hệ rễ mới phát triển, rễ tơ trắng, giúp cây ăn phân tốt, giảm hiện tượng vàng lá.</p>
           </article>
           <article class="benefit-item">
-            <h3>TIẾT KIỆM CHI PHÍ</h3>
-            <p>
-              1 chai Navi pha được nhiều lần, xử lý được nhiều gốc, tối ưu chi phí cho cả vườn mà vẫn đảm bảo hiệu quả.
-            </p>
+            <h3>GIẢM NGUY CƠ MẤT MÙA</h3>
+            <p>Hoa – trái hạn chế rụng do cây được phục hồi sức khỏe, nuôi trái ổn định hơn.</p>
+          </article>
+          <article class="benefit-item">
+            <h3>TIẾT KIỆM CHI PHÍ THUỐC</h3>
+            <p>Dùng đúng giải pháp, đúng bệnh, tránh phun xịt chồng chéo nhiều loại mà không hiệu quả.</p>
+          </article>
+          <article class="benefit-item">
+            <h3>ĐƯỢC KỸ SƯ ĐỒNG HÀNH</h3>
+            <p>Bà con được kỹ sư King Azone theo sát quy trình xử lý qua Zalo/điện thoại.</p>
           </article>
         </div>
       </div>
     </section>
 
-    <!-- GALLERY & VIDEO -->
-    <section id="gallery" class="section gallery">
-      <div class="container">
-        <h2 class="section-title">Hình ảnh & thông tin sản phẩm Navi</h2>
+    <!-- BEFORE AFTER -->
+    <section class="section before-after" id="before-after">
+      <div class="container before-after-grid">
+        <div class="before-after-text">
+          <h2 class="section-title">
+            TRƯỚC – SAU KHI DÙNG NAVI TRÊN VƯỜN THỰC TẾ
+          </h2>
+          <p class="section-intro">
+            Hình ảnh do bà con gửi về cho đội ngũ kỹ sư King Azone trong quá trình xử lý
+            nứt thân xì mủ, vàng lá thối rễ, xoăn lá…
+          </p>
 
-        <div class="gallery-grid">
-          <a href="navi2.png" class="gallery-item" data-lightbox="navi">
-            <img src="navi2.png" alt="Giải pháp đặc trị nút thân xì mủ Navi" />
-          </a>
-          <a href="navi3.png" class="gallery-item" data-lightbox="navi">
-            <img src="navi3.png" alt="Công dụng Navi chi tiết" />
-          </a>
-          <a href="navi4.png" class="gallery-item" data-lightbox="navi">
-            <img src="navi4.png" alt="Công dụng sản phẩm Navi" />
-          </a>
-          <a href="navi5.png" class="gallery-item" data-lightbox="navi">
-            <img src="navi5.png" alt="Thành phần Navi" />
-          </a>
-          <a href="navi6.png" class="gallery-item" data-lightbox="navi">
-            <img src="navi6.png" alt="Hướng dẫn sử dụng Navi" />
+          <ul class="before-after-list">
+            <li>Trước: vỏ thân thối, chảy nhựa, lá vàng, tán xơ xác.</li>
+            <li>Sau 5–7 ngày: vết bệnh khô dần, lá đứng xanh lại, cây đi tược mới.</li>
+            <li>Sau 10–15 ngày: rễ mới ra trắng, cây khỏe, chuẩn bị cho giai đoạn nuôi trái.</li>
+          </ul>
+
+          <a href="#form-dang-ky" class="btn btn-primary js-scroll">
+            Nhận hướng dẫn xử lý đúng quy trình cho vườn của bạn
           </a>
         </div>
 
-        <div class="video-block">
-          <h3>CẢM NHẬN CỦA BÀ CON KHI SỬ DỤNG NAVI ĐẠT HIỆU QUẢ RẤT CAO</h3>
-          <!-- Anh nhớ đổi tên file video thành video-feedback.mp4 hoặc chỉnh lại src -->
-          <video
-            class="video-player"
-            controls
-            preload="metadata"
-            poster="navi1.png"
-          >
+        <div class="before-after-media">
+          <img src="navi5.png" alt="Trước sau khi dùng NAVI" class="before-after-img" />
+          <img src="navi6.png" alt="Trước sau khi dùng NAVI" class="before-after-img small" />
+        </div>
+      </div>
+    </section>
+
+    <!-- VIDEO FEEDBACK -->
+    <section class="section video-section" id="video">
+      <div class="container">
+        <h2 class="section-title">
+          NGHE BÀ CON CHIA SẺ SAU KHI DÙNG NAVI
+        </h2>
+
+        <div class="video-wrapper">
+          <video controls poster="ảnh-feedback1.png" class="video-player">
             <source src="Video-feedback.mp4" type="video/mp4" />
             Trình duyệt của bạn không hỗ trợ video.
           </video>
         </div>
+
+        <p class="video-note">
+          Mỗi vùng đất, mỗi loại cây và tình trạng bệnh khác nhau sẽ có <strong>phác đồ xử lý riêng</strong>.
+          Bà con nên để kỹ sư xem hình, tư vấn đúng liều – đúng cách để đạt hiệu quả tốt nhất.
+        </p>
       </div>
     </section>
 
-    <!-- FEEDBACK NGẮN -->
-    <section class="section feedback">
+    <!-- FEEDBACK ẢNH (2 BỘ ANH GỬI) -->
+    <section class="section feedback" id="feedback">
+      <div class="container feedback-inner">
+        <h2 class="section-title">Đánh giá của khách hàng (2.9K)</h2>
+        <p class="feedback-rating">
+          <span class="feedback-score">4.9/5</span>
+          <span class="feedback-stars">★★★★★</span>
+        </p>
+
+        <div class="feedback-images">
+          <img src="ảnh-feedback.png" alt="Đánh giá khách hàng Navi 1" class="feedback-img" />
+          <img src="ảnh-feedback1.png" alt="Đánh giá khách hàng Navi 2" class="feedback-img" />
+        </div>
+
+        <p class="fb-more">Còn hơn <strong>352+</strong> đánh giá khác từ bà con khắp cả nước.</p>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section class="section pricing" id="pricing">
       <div class="container">
-        <h2 class="section-title">Một vài phản hồi từ bà con</h2>
-        <div class="feedback-list">
-          <article class="feedback-item">
-            <p class="feedback-text">
-              “Cây sầu riêng nhà tôi bị nút thân, xì mủ kéo dài. Sau 2 lần xử lý Navi
-              theo hướng dẫn, vết bệnh khô dần, đọt non bung mạnh lại, trái giữ được
-              nhiều hơn hẳn.”
-            </p>
-            <p class="feedback-author">– Chú Năm, Đồng Tháp</p>
+        <h2 class="section-title">
+          GIÁ NAVI & ƯU ĐÃI THEO COMBO HÔM NAY
+        </h2>
+        <p class="section-intro">
+          Tùy quy mô vườn và mức độ bệnh, kỹ sư sẽ tư vấn số lượng chai NAVI cho phù hợp.
+          Dưới đây là các mức đặt hàng thường dùng:
+        </p>
+
+        <div class="pricing-grid">
+          <article class="pricing-card">
+            <h3>GÓI 1 CHAI</h3>
+            <p class="pricing-qty">Phù hợp test trên một số cây/bờ</p>
+            <p class="pricing-price"></p>
+            <p class="pricing-note">Dùng thử để thấy hiệu quả của NAVI.</p>
           </article>
-          <article class="feedback-item">
-            <p class="feedback-text">
-              “Mùa mưa cây hay bị thối rễ, vàng lá. Từ khi dùng Navi kết hợp quy
-              trình của King Azone, vườn khỏe hơn, ít phải phun dặm lại.”
+
+          <article class="pricing-card popular">
+            <div class="pricing-tag">Đặt nhiều nhất</div>
+            <h3>GÓI 5 CHAI TẶNG 1 CHAI</h3>
+            <p class="pricing-qty">Phù hợp vườn nhỏ – vừa</p>
+            <p class="pricing-price"></p>
+            <p class="pricing-note">
+              Giảm thêm chi phí &amp; được kỹ sư theo sát quá trình xử lý.
             </p>
-            <p class="feedback-author">– Anh Tư, Tây Ninh</p>
           </article>
-          <article class="feedback-item">
-            <p class="feedback-text">
-              “Ưng nhất là tư vấn kỹ thuật 24/7. Có gì chụp hình gửi là được hướng dẫn
-              liền, không lo dùng sai liều.”
+
+          <article class="pricing-card">
+            <h3>GÓI THÙNG</h3>
+            <p class="pricing-qty">Phù hợp đại lý/nhà vườn diện tích lớn</p>
+            <p class="pricing-price">Liên hệ để nhận giá chiết khấu</p>
+            <p class="pricing-note">
+              Hỗ trợ bảng treo, tài liệu kỹ thuật, đồng hành lâu dài.
             </p>
-            <p class="feedback-author">– Cô Ba, Bến Tre</p>
           </article>
+        </div>
+
+        <p class="pricing-cta-note">
+          Bảng giá có thể thay đổi theo chương trình khuyến mãi từng thời điểm.
+          Bà con nhấn nút dưới đây để nhận báo giá chính xác và ưu đãi hiện tại:
+        </p>
+
+        <div class="center">
+          <a href="https://zalo.me/0911509011" target="_blank" class="btn btn-zalo">
+            Đặt hàng & ưu đãi NAVI qua Zalo
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FORM -->
+    <section class="section form-section" id="form-dang-ky">
+      <div class="container form-grid">
+        <div class="form-text">
+          <h2 class="section-title">
+            ĐĂNG KÝ ĐỂ KỸ SƯ GỌI LẠI TƯ VẤN MIỄN PHÍ
+          </h2>
+          <p class="section-intro">
+            Bà con chỉ cần để lại thông tin, kỹ sư nông nghiệp của King Azone sẽ gọi lại,
+            xem <strong>hình thực tế vườn</strong> và hướng dẫn chi tiết cách dùng NAVI
+            cho đúng bệnh – đúng liều.
+          </p>
+
+          <ul class="form-benefits">
+            <li>Tư vấn hoàn toàn miễn phí – không bắt buộc mua hàng.</li>
+            <li>Xem hình qua Zalo, đưa phác đồ xử lý phù hợp.</li>
+            <li>Hỗ trợ từ lúc cây bệnh nặng đến khi phục hồi.</li>
+          </ul>
+
+          <p class="form-hotline">
+            Hoặc gọi trực tiếp:
+            <a href="tel:0911509011" class="hotline-inline">0911.509.011</a>
+          </p>
+        </div>
+
+        <div class="form-box">
+          <h3>Đăng ký nhận tư vấn & báo giá NAVI</h3>
+          <form id="lead-form" class="lead-form">
+            <div class="form-row">
+              <label for="name">Họ tên</label>
+              <input id="name" name="name" type="text" class="input" placeholder="Nhập họ tên" required />
+            </div>
+            <div class="form-row">
+              <label for="phone">Số điện thoại</label>
+              <input
+                id="phone"
+                name="phone"
+                type="tel"
+                class="input"
+                placeholder="Nhập số điện thoại"
+                required
+              />
+            </div>
+            <div class="form-row">
+              <label for="province">Tỉnh / Khu vực</label>
+              <input
+                id="province"
+                name="province"
+                type="text"
+                class="input"
+                placeholder="VD: Đắk Lắk, Bến Tre..."
+              />
+            </div>
+            <div class="form-row">
+              <label for="crop">Cây trồng chính</label>
+              <input
+                id="crop"
+                name="crop"
+                type="text"
+                class="input"
+                placeholder="VD: Sầu riêng, hồ tiêu, cà phê..."
+              />
+            </div>
+            <div class="form-row">
+              <label for="problem">Tình trạng bệnh của vườn</label>
+              <textarea
+                id="problem"
+                name="problem"
+                class="textarea"
+                rows="3"
+                placeholder="Mô tả ngắn: nứt thân xì mủ, vàng lá, thối rễ, xoăn lá..."
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-full">
+              Gửi thông tin – King Azone liên hệ tư vấn
+            </button>
+
+            <p class="form-disclaimer">
+              King Azone cam kết bảo mật thông tin, chỉ dùng để kỹ sư gọi lại tư vấn.
+            </p>
+          </form>
         </div>
       </div>
     </section>
 
     <!-- FAQ -->
-    <section id="faq" class="section faq">
+    <section class="section faq" id="faq">
       <div class="container">
-        <h2 class="section-title">Câu hỏi thường gặp (FAQ)</h2>
+        <h2 class="section-title">CÂU HỎI THƯỜNG GẶP VỀ NAVI</h2>
 
         <div class="faq-list">
           <div class="faq-item">
             <button class="faq-question">
-              <span>1. Navi dùng cho cây gì?</span>
+              <span>NAVI dùng cho cây gì?</span>
               <span class="faq-toggle">+</span>
             </button>
             <div class="faq-answer">
-              Navi dùng tốt cho sầu riêng, cây ăn trái (xoài, mít, chanh dây...), các
-              loại cây công nghiệp và rau màu có biểu hiện nút thân xì mủ, xoăn lá,
-              khảm lá, vàng lá thối rễ.
+              NAVI phù hợp cho sầu riêng, cây ăn trái (xoài, mít, chanh dây...), cây công nghiệp
+              và một số loại rau màu có biểu hiện nứt thân xì mủ, vàng lá, thối rễ, xoăn lá, khảm lá.
             </div>
           </div>
 
           <div class="faq-item">
             <button class="faq-question">
-              <span>2. Một chai Navi pha được bao nhiêu nước?</span>
+              <span>NAVI có an toàn cho người phun và môi trường không?</span>
               <span class="faq-toggle">+</span>
             </button>
             <div class="faq-answer">
-              Tùy mục đích phun hay quét mà liều lượng sẽ thay đổi. Ví dụ xử lý
-              xì mủ: 1 nắp pha với 4 lít nước để quét lên vết bệnh. Anh/chị nên
-              đọc kỹ hướng dẫn trên bao bì hoặc liên hệ kỹ thuật King Azone để
-              được tư vấn liều cụ thể cho từng loại cây.
+              NAVI theo định hướng sinh học, dùng đúng hướng dẫn sẽ an toàn cho người phun và hệ rễ,
+              phù hợp xu hướng canh tác giảm hóa chất. Tuy nhiên bà con vẫn nên mang đồ bảo hộ khi xử lý.
             </div>
           </div>
 
           <div class="faq-item">
             <button class="faq-question">
-              <span>3. Bao lâu phun / quét 1 lần?</span>
+              <span>Dùng bao lâu thì thấy hiệu quả?</span>
               <span class="faq-toggle">+</span>
             </button>
             <div class="faq-answer">
-              Thông thường xử lý liên tục 2–3 lần, mỗi lần cách nhau 4–5 ngày.
-              Tùy mức độ bệnh và thời tiết, kỹ thuật King Azone sẽ gợi ý lịch
-              phun phù hợp nhất cho vườn của anh/chị.
+              Thường sau 5–7 ngày sẽ bắt đầu thấy vết bệnh khô dần, lá đứng lại, cây đỡ xì mủ. Tùy
+              mức độ bệnh nặng nhẹ mà kỹ sư sẽ hướng dẫn liệu trình phù hợp.
             </div>
           </div>
 
           <div class="faq-item">
             <button class="faq-question">
-              <span>4. Có dùng chung với thuốc khác được không?</span>
+              <span>Tôi mua NAVI ở đâu để đảm bảo hàng chuẩn King Azone?</span>
               <span class="faq-toggle">+</span>
             </button>
             <div class="faq-answer">
-              Navi có thể phối hợp với nhiều chế phẩm khác, tuy nhiên không nên
-              pha chung với thuốc có tính kiềm mạnh. Khi cần phối hợp nhiều sản
-              phẩm, anh/chị nên test nhỏ trước hoặc gọi cho kỹ thuật của King
-              Azone để được hướng dẫn.
-            </div>
-          </div>
-
-          <div class="faq-item">
-            <button class="faq-question">
-              <span>5. Cây bị bệnh nặng có chữa được không?</span>
-              <span class="faq-toggle">+</span>
-            </button>
-            <div class="faq-answer">
-              Với cây bệnh nặng, cần xử lý đồng bộ: vệ sinh vết bệnh, cải tạo bộ
-              rễ, thoát nước tốt kết hợp Navi theo đúng phác đồ. Nếu được can
-              thiệp kịp thời, đa phần vườn vẫn phục hồi tốt. Anh/chị có thể gửi
-              hình vườn qua Zalo để kỹ thuật lên liệu trình chi tiết.
+              Bà con nên đặt mua trực tiếp qua hotline 0911.509.011 hoặc Zalo chính hãng của King Azone
+              để được hỗ trợ đúng sản phẩm, đúng giá và tư vấn kỹ thuật đầy đủ.
             </div>
           </div>
         </div>
       </div>
     </section>
-
-    <!-- CONTACT / FOOTER -->
-    <footer id="contact" class="site-footer">
-      <div class="container footer-grid">
-        <div class="footer-col">
-          <h3>Liên hệ với King Azone</h3>
-          <ul class="contact-list">
-            <li><strong>CÔNG TY CỔ PHẦN KING AZONE</strong></li>
-            <li>Trụ sở: Số 10 Phan Đình Giót, P. Tân Sơn Hòa, TP. Hồ Chí Minh</li>
-            <li>Chi nhánh Cần Thơ: 42–48 Phạm Ngọc Thạch, P. Cái Khế, TP. Cần Thơ</li>
-            <li>Hotline: <a href="tel:0911509011">0911.509.011</a></li>
-            <li>Website: <a href="https://kingazone.com" target="_blank">kingazone.com</a></li>
-          </ul>
-        </div>
-
-        <div class="footer-col">
-          <h3>Cam kết từ King Azone</h3>
-          <ul class="commit-list">
-            <li>Hiệu quả rõ rệt sau 3–5 ngày sử dụng đúng hướng dẫn.</li>
-            <li>Miễn phí tư vấn kỹ thuật trồng trọt 24/7.</li>
-            <li>Được kiểm tra hàng trước khi thanh toán.</li>
-            <li>Hoàn tiền nếu sản phẩm lỗi hoặc không đúng mô tả.</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="footer-bottom">
-        KING AZONE – Bạn Của Nhà Nông Việt
-      </div>
-    </footer>
   </main>
 
-  <!-- POPUP ĐẶT HÀNG -->
-  <div id="orderOverlay" class="overlay hidden">
-    <div class="modal">
-      <button class="modal-close" id="closeOrderBtn" aria-label="Đóng">×</button>
-      <h2>Đặt hàng Navi</h2>
-      <p class="modal-note">
-        Điền thông tin bên dưới, King Azone sẽ gọi lại từ số
-        <strong> 0911.509.011 </strong> để tư vấn và chốt đơn.
-      </p>
-
-      <form id="orderForm" class="order-form">
-        <div class="form-group">
-          <label for="orderName">Họ tên</label>
-          <input
-            type="text"
-            id="orderName"
-            name="orderName"
-            class="input"
-            placeholder="Tên của bà con"
-            required
-          />
-        </div>
-
-        <div class="form-group">
-          <label for="orderPhone">Số điện thoại</label>
-          <input
-            type="tel"
-            id="orderPhone"
-            name="orderPhone"
-            class="input"
-            placeholder="Số điện thoại nhận tư vấn"
-            required
-          />
-        </div>
-
-        <div class="form-group">
-          <label for="orderQty">Số lượng Navi</label>
-          <input
-            type="number"
-            id="orderQty"
-            name="orderQty"
-            class="input"
-            min="1"
-            value="1"
-          />
-        </div>
-
-        <div class="form-group">
-          <label for="orderProvince">Tỉnh / khu vực</label>
-          <input
-            type="text"
-            id="orderProvince"
-            name="orderProvince"
-            class="input"
-            placeholder="Ví dụ: Đồng Tháp, Tây Ninh..."
-          />
-        </div>
-
-        <div class="form-group">
-          <label for="orderNote">Ghi chú thêm</label>
-          <textarea
-            id="orderNote"
-            name="orderNote"
-            rows="3"
-            class="input textarea"
-            placeholder="Loại cây, diện tích, tình trạng bệnh..."
-          ></textarea>
-        </div>
-
-        <button type="submit" class="btn btn-primary btn-full">
-          GỬI ĐƠN
-        </button>
-
-        <p class="modal-footnote">
-          Đơn hàng sẽ được lưu tạm trong trình duyệt và gửi lên Google Sheets để
-          nhân viên King Azone gọi lại chốt đơn.
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <h3>King Azone – Đồng hành cùng nhà nông</h3>
+        <p>
+          Chúng tôi mang đến các giải pháp sinh học và kỹ thuật canh tác giúp bà con tăng năng suất,
+          giảm chi phí và bảo vệ đất cho những vụ mùa sau.
         </p>
-      </form>
-    </div>
-  </div>
+      </div>
 
-  <!-- LIGHTBOX ẢNH -->
-  <div id="lightbox" class="lightbox hidden">
-    <div class="lightbox-inner">
-      <img id="lightboxImage" src="" alt="Xem ảnh lớn Navi" />
-      <button id="lightboxClose" class="lightbox-close" aria-label="Đóng">
-        ×
-      </button>
+      <div class="footer-col">
+        <h4>Thông tin liên hệ</h4>
+        <ul class="footer-list">
+          <li>CÔNG TY CỔ PHẦN KING AZONE</li>
+          <li>Trụ sở: Số 10 Phan Đình Giót, P. Tân Sơn Hòa, TP. Hồ Chí Minh</li>
+          <li>Chi nhánh Cần Thơ: 42–48 Phạm Ngọc Thạch, P. Cái Khế, TP. Cần Thơ</li>
+          <li>Hotline: <a href="tel:0911509011">0911.509.011</a></li>
+          <li>Website: <a href="https://kingazone.com" target="_blank">kingazone.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Cam kết từ King Azone</h4>
+        <ul class="footer-list">
+          <li>Hiệu quả rõ rệt khi dùng đúng hướng dẫn kỹ sư.</li>
+          <li>Được kiểm tra hàng trước khi thanh toán.</li>
+          <li>Hỗ trợ kỹ thuật trong suốt quá trình canh tác.</li>
+        </ul>
+      </div>
     </div>
-  </div>
+
+    <div class="footer-bottom">
+      <p>© King Azone – Bạn của nhà nông. All Rights Reserved.</p>
+    </div>
+  </footer>
 
   <script src="app.js"></script>
 </body>
 </html>
-
-
-
