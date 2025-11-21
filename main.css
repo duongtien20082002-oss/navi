@@ -980,8 +980,7 @@ body {
   box-shadow: 0 6px 18px rgba(0,0,0,0.15);
 }
 .problem-img {
-  display: block;
-  margin: 0 auto 12px auto;
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
-
-
