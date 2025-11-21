@@ -966,3 +966,16 @@ body {
   font-size: 13px;
   color: #6b7280;
 }
+.problem-item {
+  text-align: left;
+}
+
+.problem-img {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+  margin-bottom: 12px;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
