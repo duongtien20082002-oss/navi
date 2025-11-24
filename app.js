@@ -115,6 +115,8 @@ if (leadForm) {
         mode: "no-cors",
       });
 
+      fbq('track', 'Lead', {phone: phone, name: name});
+
       alert(
         `Cảm ơn ${name || "bà con"} đã để lại thông tin!\n` +
           `Kỹ sư King Azone sẽ liên hệ số: ${phone} trong thời gian sớm nhất.`
