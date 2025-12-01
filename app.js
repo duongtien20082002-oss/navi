@@ -143,7 +143,7 @@ if (leadForm) {
 setTimeout(() => {
   document.getElementById("popup-overlay").classList.add("popup-show");
   document.getElementById("popup-form").classList.add("popup-show");
-}, 5000);
+}, 6000);
 
 // Đóng popup
 function closePopup() {
@@ -196,3 +196,4 @@ if (popupLeadForm) {
     }
   });
 }
+
