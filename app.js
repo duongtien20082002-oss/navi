@@ -137,3 +137,62 @@ if (leadForm) {
     }
   });
 }
+// ============================
+// POPUP TỰ BẬT SAU 5 GIÂY
+// ============================
+setTimeout(() => {
+  document.getElementById("popup-overlay").classList.add("popup-show");
+  document.getElementById("popup-form").classList.add("popup-show");
+}, 5000);
+
+// Đóng popup
+function closePopup() {
+  document.getElementById("popup-overlay").classList.remove("popup-show");
+  document.getElementById("popup-form").classList.remove("popup-show");
+}
+
+document.getElementById("popup-overlay").addEventListener("click", closePopup);
+
+
+// ============================
+// FORM POPUP → GOOGLE SHEETS
+// ============================
+const popupLeadForm = document.getElementById("popup-lead-form");
+
+if (popupLeadForm) {
+  popupLeadForm.addEventListener("submit", async (e) => {
+    e.preventDefault();
+
+    const formData = new FormData(popupLeadForm);
+    const name = (formData.get("name") || "").trim();
+    const phone = (formData.get("phone") || "").trim().replace(/[^0-9]/g, "");
+
+    if (!phone || phone.length < 9) {
+      alert("Số điện thoại chưa đúng, anh/chị nhập lại giúp em.");
+      return;
+    }
+
+    const payload = new URLSearchParams();
+    payload.append("HoTen", name);
+    payload.append("SoDienThoai", phone);
+
+    try {
+      await fetch(WEB_APP_URL, {
+        method: "POST",
+        body: payload,
+        mode: "no-cors",
+      });
+
+      if (typeof fbq === "function") {
+        fbq("track", "Lead", { phone, name });
+      }
+
+      alert("Thông tin đã gửi! Kỹ sư King Azone sẽ gọi cho anh/chị trong giây lát.");
+
+      popupLeadForm.reset();
+      closePopup();
+    } catch (err) {
+      alert("Gửi thông tin lỗi, anh/chị thử lại hoặc gọi 0911.509.011.");
+    }
+  });
+}

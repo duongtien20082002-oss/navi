@@ -86,6 +86,27 @@
   </script>
 </head>
 <body>
+  <!-- POPUP FORM (phải đặt ngay dưới <body>, không nằm trong section nào) -->
+<div id="popup-overlay" class="popup-overlay"></div>
+
+<div id="popup-form" class="popup-form">
+  <button class="popup-close" onclick="closePopup()">×</button>
+
+  <h3 class="popup-title">KỸ SƯ XEM HÌNH VƯỜN MIỄN PHÍ</h3>
+  <p class="popup-sub">Để lại số điện thoại – kỹ sư gọi lại trong 5 phút</p>
+
+  <form id="popup-lead-form">
+    <input type="text" name="name" placeholder="Họ tên" class="popup-input" required />
+    <input type="tel" name="phone" placeholder="Số điện thoại" class="popup-input" required />
+
+    <button type="submit" class="popup-btn">
+      GỬI THÔNG TIN – NHẬN HƯỚNG DẪN NGAY
+    </button>
+  </form>
+
+  <p class="popup-note">Miễn phí 100% – Không bắt buộc mua hàng</p>
+</div>
+
   <!-- TOPBAR HOTLINE -->
   <header class="topbar">
     <div class="container topbar-inner">
@@ -497,7 +518,7 @@
             </div>
 
             <button type="submit" class="btn btn-primary btn-full">
-              Gửi thông tin – King Azone liên hệ tư vấn
+              Gửi thông tin – Kỹ sư gọi ngay trong 5 phút
             </button>
 
             <p class="form-disclaimer">
@@ -600,6 +621,9 @@
   </footer>
 
   <script src="app.js?v=2"></script>
+
+
+
 
 </body>
 </html>
