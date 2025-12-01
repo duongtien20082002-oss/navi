@@ -86,26 +86,29 @@
   </script>
 </head>
 <body>
-  <!-- POPUP FORM (phải đặt ngay dưới <body>, không nằm trong section nào) -->
-<div id="popup-overlay" class="popup-overlay"></div>
+ <!-- POPUP WRAPPER -->
+<div id="popup-root">
+  <div id="popup-overlay" class="popup-overlay"></div>
 
-<div id="popup-form" class="popup-form">
-  <button class="popup-close" onclick="closePopup()">×</button>
+  <div id="popup-form" class="popup-form">
+    <button class="popup-close" onclick="closePopup()">×</button>
 
-  <h3 class="popup-title">KỸ SƯ XEM HÌNH VƯỜN MIỄN PHÍ</h3>
-  <p class="popup-sub">Để lại số điện thoại – kỹ sư gọi lại trong 5 phút</p>
+    <h3 class="popup-title">KỸ SƯ XEM HÌNH VƯỜN MIỄN PHÍ</h3>
+    <p class="popup-sub">Để lại số điện thoại – kỹ sư gọi lại trong 5 phút</p>
 
-  <form id="popup-lead-form">
-    <input type="text" name="name" placeholder="Họ tên" class="popup-input" required />
-    <input type="tel" name="phone" placeholder="Số điện thoại" class="popup-input" required />
+    <form id="popup-lead-form">
+      <input type="text" name="name" placeholder="Họ tên" class="popup-input" required />
+      <input type="tel" name="phone" placeholder="Số điện thoại" class="popup-input" required />
 
-    <button type="submit" class="popup-btn">
-      GỬI THÔNG TIN – NHẬN HƯỚNG DẪN NGAY
-    </button>
-  </form>
+      <button type="submit" class="popup-btn">
+        GỬI THÔNG TIN – NHẬN HƯỚNG DẪN NGAY
+      </button>
+    </form>
 
-  <p class="popup-note">Miễn phí 100% – Không bắt buộc mua hàng</p>
+    <p class="popup-note">Miễn phí 100% – Không bắt buộc mua hàng</p>
+  </div>
 </div>
+
 
   <!-- TOPBAR HOTLINE -->
   <header class="topbar">
@@ -627,3 +630,4 @@
 
 </body>
 </html>
+
