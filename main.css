@@ -1083,3 +1083,9 @@ body {
   color: #6b7280;
   margin-top: 10px;
 }
+#popup-root {
+  position: relative;
+  z-index: 2000;
+}
+
+
